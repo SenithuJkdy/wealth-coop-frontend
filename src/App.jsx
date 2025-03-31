@@ -9,7 +9,6 @@ import LoanDefault from './pages/LoanDefault/LoanDefault';
 
 function App() {
   
-
   return (
     <Router>
       <Routes>

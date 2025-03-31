@@ -1,4 +1,3 @@
-// pages/LoanDefault/LoanDefault.jsx
 import { useState } from "react";
 import axios from "axios";
 
@@ -27,7 +26,6 @@ export default function LoanDefault() {
     e.preventDefault();
     console.log("Form Submitted Data:", formData);
   
-    // Convert numerical fields to numbers
     const payload = {
       ...formData,
       loan_amount: parseFloat(formData.loan_amount),
